@@ -1,0 +1,4 @@
+- yo webapp
+- bower install angular
+- bower install foundation
+- grunt bowerInstall added the above two script files to index.html (files are in bower-components )
