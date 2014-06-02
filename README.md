@@ -21,7 +21,7 @@
   <b>grunt serve </b> to start preview (auto updates) in browser
 ## Building
 
- run <b>grunt</b> to test the project (in app folder) and build it (into "dist" folder)
+ run <b>grunt</b> to test the project and build it (into "dist" folder)
 
  <b><i> Note: The "dist" folder is not included in this repo. It is gitignored </i></b>
 
