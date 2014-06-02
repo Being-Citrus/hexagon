@@ -241,7 +241,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: '<%= config.app %>/images',
-                    src: '{,*/}*.{gif,jpeg,jpg,png}',
+                    src: '{,*/}*.{gif,jpeg,jpg}',
                     dest: '<%= config.dist %>/images'
                 }]
             }
@@ -317,6 +317,7 @@ module.exports = function (grunt) {
                         '*.{ico,png,txt}',
                         '.htaccess',
                         'images/{,*/}*.webp',
+                        'images/{,*/}*.png', //coz imagemin doesnt do pngs
                         '{,*/}*.html',
                         'styles/fonts/{,*/}*.*'
                     ]

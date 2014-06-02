@@ -19,12 +19,12 @@
 
 ## Preview (while developing)
   <b>grunt serve </b> to start preview (auto updates) in browser
-## Building
 
+## Building
  run <b>grunt</b> to test the project and build it (into "dist" folder)
 
  <b><i> Note: The "dist" folder is not included in this repo. It is gitignored </i></b>
 
 ## Bugs
 
-- 2:17 PM 6/2/2014 : imagemin item from Gruntfile.js is screwed up
+- [FIXED] imagemin item from Gruntfile.js is screwed up
